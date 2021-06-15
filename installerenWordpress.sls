@@ -10,7 +10,7 @@ installeren Benodigdheden:
 Configuratie Doorvoeren:
   file.append:
     - name: /etc/apache2/sites-available/wordpress.conf
-    - source: salt::/wordpress.conf
+    - source: salt::Configs/wordpress.conf
 
 
 

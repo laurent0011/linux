@@ -22,7 +22,7 @@ rechten Opstellen:
 wordpress databaseConfig:
   file.append:
     -name: /etc/wordpress/config-localhost.php
-    -source: salt::/databaseMaken.conf
+    -source: salt::Configs/databaseMaken.conf
   
 
 
